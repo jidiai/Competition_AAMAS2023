@@ -62,7 +62,11 @@ python run_log.py --env chessandcard-mahjong_v3
 python run_log.py --env bridge
 ```
 
+## Submission
 
+In the `agent/` folder lies the ready-to-submit agents. We have provided an implementation of random agents. 
+The `run_log.py` load these agents and run a game. The Jidi backend evaluation your submission in the same way.  
+So make sure `run_log.py` raises no error before you submit your policies to the platform.
 
 
 
