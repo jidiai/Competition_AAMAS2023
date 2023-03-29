@@ -1,0 +1,6 @@
+.idea*
+.git/
+*/__pycache__/*
+*/*/__pycache__/*
+logs/
+rl_trainer/models/
