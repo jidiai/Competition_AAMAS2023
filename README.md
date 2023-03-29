@@ -1,6 +1,6 @@
 
 # Competition_AAMAS2023
-<img src="imgs/Jidi%20logo.png" width='300px'>
+<img src="imgs/Jidi%20logo.png" width='300px'>  <img src="imgs/aamas2023logo.png" width='300px'>
 
 This is the source code for [AAMAS 2023 Imperfect-information Card Game Competition](http://www.jidiai.cn/aamas_2023/) held by Jidi
 
@@ -17,6 +17,8 @@ All three tracks start from **April 10th, 2023** to **May 15th, 2023**.
 - Competition intro page: http://www.jidiai.cn/aamas_2023/
 
 - Jidi tutorial: https://github.com/jidiai/ai_lib/tree/master/assets
+
+- Competition game description: [games](docs/games.md)
 
 
 ## Quick Start
@@ -49,6 +51,16 @@ conda activate competition-venv
 pip install -r requirements.txt
 ```
 
+**Run a game**
+```bash
+python run_log.py --env fourplayers_nolimit_texas_holdem
+```
+```bash
+python run_log.py --env chessandcard-mahjong_v3
+```
+```bash
+python run_log.py --env bridge
+```
 
 
 
