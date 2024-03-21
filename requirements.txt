@@ -1,5 +1,5 @@
 IPython==7.25.0
-gym==0.21.0
+gym==0.23.0
 pillow==8.2.0
 numpy==1.19.5
 cattrs==1.0.0
