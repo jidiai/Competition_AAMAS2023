@@ -42,7 +42,7 @@ python3 -m pip install -e .
 ```
 or 
 ```bash
-conda create -n competition-venv python==3.7.5  #or 3.8
+conda create -n competition-venv python==3.9  #or 3.10
 conda activate competition-venv
 ```
 
